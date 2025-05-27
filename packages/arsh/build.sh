@@ -22,7 +22,7 @@ TERMUX_PKG_VERSION=0.38.0
 
 # URL to archive with source code.
 # TERMUX_PKG_SRCURL=https://github.com/sekiguchi-nagisa/arsh/archive/refs/tags/v${TERMUX_PKG_VERSION}.tar.gz
-TERMUX_PKG_SRCURL=https://github.com/sekiguchi-nagisa/arsh.git
+TERMUX_PKG_SRCURL=git+https://github.com/sekiguchi-nagisa/arsh.git
 
 TERMUX_PKG_GIT_BRANCH=termux-port
 
