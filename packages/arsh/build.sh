@@ -24,12 +24,8 @@ TERMUX_PKG_VERSION=0.38.0
 # TERMUX_PKG_SRCURL=https://github.com/sekiguchi-nagisa/arsh/archive/refs/tags/v${TERMUX_PKG_VERSION}.tar.gz
 TERMUX_PKG_SRCURL=git+https://github.com/sekiguchi-nagisa/arsh.git
 
-TERMUX_PKG_GIT_BRANCH=termux-port
-
 TERMUX_PKG_DEPENDS="pcre2,bash-completion,fzf"
 
 TERMUX_PKG_BUILD_DEPENDS="git,re2c"
 
 TERMUX_PKG_EXTRA_CONFIGURE_ARGS="-DUSE_CTEST=off"
-
-TERMUX_PKG_API_LEVEL=26
